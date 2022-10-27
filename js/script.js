@@ -19,11 +19,17 @@ const arrRisoPatateCozz = [
 ]
 
 const eleGroceryList = document.querySelector('.lista-spesa');
-const inputGroceryItem = document.querySelector('#input-spesa');
-const eleGroceryForm = document.querySelector('form');
+// const inputGroceryItem = document.querySelector('#input-spesa');
+// const eleGroceryForm = document.querySelector('form');
 
+let i = 0
+//console.log(arrRisoPatateCozz[i])
 
-while ()
+while (i < arrRisoPatateCozz.length) {
+    eleGroceryList.innerHTML += `<li>${arrRisoPatateCozz[i]}</li>`
+    console.log()
+    i++    
+}
 
 
 // eleGroceryForm.addEventListener('submit', function(event) {
@@ -37,6 +43,6 @@ while ()
 // 	}
 // });
 
-// for (let i = 0; i < arrRisoPatateCozz.length; i++) {
-// 	eleGroceryList.innerHTML += `<li>${arrRisoPatateCozz[i]}</li>`;
-// }
+//  for (let i = 0; i < arrRisoPatateCozz.length; i++) {
+//  	eleGroceryList.innerHTML += `<li>${arrRisoPatateCozz[i]}</li>`;
+//  }
